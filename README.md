@@ -1,1 +1,0 @@
-# Istanbul-Kebab-Olomouc
