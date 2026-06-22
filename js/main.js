@@ -52,7 +52,7 @@
        Až budete mít e-mailovou schránku nebo službu (Formspree apod.),
        stačí změnit ADRESA_PRO_POPTAVKY níže, případně formulář napojit
        na vlastní backend. */
-    var ADRESA_PRO_POPTAVKY = "info@example.cz"; // <-- ZMĚŇTE na svůj e-mail
+    var ADRESA_PRO_POPTAVKY = "sterbakr@seznam.cz"; // e-mail, kam chodí poptávky
 
     var form = document.getElementById("inquiry-form");
     var note = document.getElementById("form-note");
