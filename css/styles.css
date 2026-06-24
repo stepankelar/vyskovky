@@ -587,3 +587,29 @@ input:focus-visible, select:focus-visible, textarea:focus-visible {
     html { scroll-behavior: auto; }
     * { transition: none !important; animation: none !important; }
 }
+
+/* =========================================================
+   PLOVOUCÍ WHATSAPP TLAČÍTKO
+   ========================================================= */
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+    z-index: 999;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.whatsapp-float:hover { transform: scale(1.08); box-shadow: 0 10px 26px rgba(37, 211, 102, .5); }
+.whatsapp-float svg { width: 34px; height: 34px; }
+@media (max-width: 560px) {
+    .whatsapp-float { width: 52px; height: 52px; right: 16px; bottom: 16px; }
+    .whatsapp-float svg { width: 30px; height: 30px; }
+}
